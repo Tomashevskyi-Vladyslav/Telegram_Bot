@@ -8,7 +8,7 @@ sas = 0
 run = 0
 Out_of_place=0
 qwer = 0
-bot = telebot.TeleBot('5626423321:AAFZSRn9pavsUIKBf4alOH1vcPMQUzA75Ds')
+bot = telebot.TeleBot('/5626423321/:AAFZSRn9pav/sUIKBf4alOH1vcP/MQUzA75Ds/')
 
 @bot.message_handler(commands=['start'])
 def start(message):
